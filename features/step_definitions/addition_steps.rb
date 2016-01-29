@@ -1,10 +1,10 @@
 require 'calculator'
 
-When /^I add two numbers$/ do
+When (/^I add two numbers$/) do
   @sum = Calculator.new.add 6, 23
 end
 
-Then /^I get the sum$/ do
+Then (/^I get the sum$/) do
   expect(@sum).to eq 29
 end
 

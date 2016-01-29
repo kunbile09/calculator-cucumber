@@ -14,4 +14,9 @@ class Calculator
       def div *numbers
     numbers.inject(:/)
   end
+  
+        def divByZero *numbers
+    numbers.inject(:/)
+  end
 end
+
