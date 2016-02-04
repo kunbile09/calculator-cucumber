@@ -6,10 +6,6 @@ Feature: Addition
   Scenario: Adding numbers to get a sum
     When I add two numbers
     Then I get the sum
-
- Scenario: Subtracting numbers to get a different
-    When I subtract two numbers
-    Then I get the sub
 	
   Scenario: Adding zero
     When I add zero to a number

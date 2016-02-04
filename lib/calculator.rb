@@ -3,20 +3,15 @@ class Calculator
     numbers.inject(:+)
   end
   
-    def sub *numbers
+  def sub *numbers
     numbers.inject(:-)
   end
   
-      def mult *numbers
+  def mult *numbers
     numbers.inject(:*)
   end
   
-      def div *numbers
+  def div *numbers
     numbers.inject(:/)
   end
   
-        def divByZero *numbers
-    numbers.inject(:/)
-  end
-end
-
