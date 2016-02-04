@@ -14,7 +14,3 @@ Feature: Division
   Scenario: divide numbers in different orders
     When I divide the same numbers in different orders
     Then the divident are different
-
-  Scenario: divide more than two numbers
-    When I divide more than two numbers
-    Then I get the divident

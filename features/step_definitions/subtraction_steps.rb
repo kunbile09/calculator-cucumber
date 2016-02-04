@@ -5,7 +5,7 @@ require 'calculator'
  end
  
  Then (/^I get the difference$/) do
-   expect(@sub).to eq 15
+   expect(@sub).to eq 5
  end 
  
  
@@ -13,7 +13,7 @@ require 'calculator'
    @sub = Calculator.new.sub 10, 0
  end
  
- Then (/^the sum is that number$/) do
+ Then (/^the difference is that number$/) do
    expect(@sub).to eq 10
  end 
 
@@ -31,7 +31,7 @@ require 'calculator'
    @sub = Calculator.new.sub 30, 5, 10
  end
  
- Then (/^I get the difference$/) do
+ Then (/^I get the difference of these numbers$/) do
    expect(@sub).to eq 15
  end 
 

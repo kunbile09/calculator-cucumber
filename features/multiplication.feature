@@ -17,4 +17,4 @@ Feature: Multiplication
 
   Scenario: multiply more than two numbers
     When I multiply more than two numbers
-    Then I get the total
+    Then I get the total of these numbers

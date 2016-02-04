@@ -12,7 +12,7 @@ require 'calculator'
    @mult = Calculator.new.mult 10, 0
  end
  
- Then (/^Then the total is zero$/) do
+ Then (/^the total is zero$/) do
    expect(@mult).to eq 0
  end 
 
@@ -30,7 +30,7 @@ require 'calculator'
    @mult = Calculator.new.mult 10, 5, 10
  end
  
- Then (/^I get the total$/) do
+ Then (/^I get the total of these numbers$/) do
    expect(@mult).to eq 500
  end 
 

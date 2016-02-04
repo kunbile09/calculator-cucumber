@@ -9,7 +9,7 @@ Feature: Subtraction
 	
   Scenario: subtract zero
     When I subtract zero to a number
-    Then the sum is that number
+    Then the difference is that number
 
   Scenario: subtract numbers in different orders
     When I subtract the same numbers in different orders
@@ -17,4 +17,4 @@ Feature: Subtraction
 
   Scenario: subtract more than two numbers
     When I subtract more than two numbers
-    Then I get the difference
+    Then I get the difference of these numbers

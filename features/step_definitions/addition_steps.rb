@@ -31,7 +31,7 @@ require 'calculator'
    @add = Calculator.new.add 10, 5, 10
  end
  
- Then (/^I get the sum$/) do
+ Then (/^I get the sum of two numbers$/) do
    expect(@add).to eq 25
  end 
 
