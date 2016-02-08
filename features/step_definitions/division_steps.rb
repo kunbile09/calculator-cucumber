@@ -10,12 +10,11 @@ require 'calculator'
  
  
   When (/^I divide zero to a number$/) do
-   @div = Calculator.new.div 10, 0
-   expect{ div "Oops"}.to raise_error
+    expect { 1 / 0 }.to raise_error(ZeroDivisionError)
  end
  
  Then (/^I raise an error$/) do
-   expect(@div).to raise_error
+   
  end 
 
  
